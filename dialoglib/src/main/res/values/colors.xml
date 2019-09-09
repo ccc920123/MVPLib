@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <!--<color name="selectedda">#ff0092f4</color>-->
+    <color name="div_white">#E5E5E5</color>
+    <color name="actionsheet_gray">#8F8F8F</color>
+    <color name="actionsheet_blue">#037BFF</color>
+    <color name="text_dark_gray">#505050</color>
+    <color name="text_blue">#017bc8</color>
+    <color name="text_light_blue">#017bc8</color>
+    <color name="transparent">#00000000</color>
+    <array name="splsh_circle_color">
+        <item>@color/colorPrimary</item>
+        <item>@color/colorPrimary</item>
+        <item>@color/text_blue</item>
+        <item>@color/text_light_blue</item>
+        <item>@color/colorPrimary</item>
+        <item>@color/colorPrimary</item>
+    </array>
+</resources>

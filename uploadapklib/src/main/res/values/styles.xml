@@ -1,0 +1,35 @@
+<resources>
+
+
+    <!-- 自定义仿IOS的ActionSheet底部Dialog的样式 ，有模糊效果 -->
+
+    <style name="MyDialogStyle" parent="Theme.AppCompat.NoActionBar">
+        <!-- 去黑边 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 设置是否可滑动 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 设置是否透明 -->
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowDisablePreview">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!--&lt;!&ndash; 背景 &ndash;&gt;-->
+        <!--<item name="android:background">@drawable/dialogupload_background</item>-->
+        <!--&lt;!&ndash; 窗口背景 &ndash;&gt;-->
+        <!--<item name="android:windowBackground">@drawable/dialogupload_background</item>-->
+        <!-- 是否变暗 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 点击空白部分activity不消失 -->
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <!--dialog出现和消失的动画-->
+        <!--<item name="android:windowAnimationStyle">@style/AnimSlideBottom</item>-->
+    </style>
+    <style name="loading_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+</resources>
